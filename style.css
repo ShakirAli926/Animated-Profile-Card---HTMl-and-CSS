@@ -1,0 +1,11 @@
+.profile-card .profileCardBody{
+    transform: translateY(10px);
+    opacity: 0;
+    transition: 0.5s;
+    
+
+}
+.profile-card:hover .profileCardBody {
+    transform: translateY(0px);
+    opacity: 1;
+}
